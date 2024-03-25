@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Generator</h1>
+        <div class="form-group">
+            <h2>Key in the marks attained by the student for grading</h2>
+            <br>
+            <!-- Makes a table of students to be graded based on allocated marks -->
+            <table class="table table-striped">
+                <thead>
+                    <!-- Header row -->
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name of Student</th>
+                    <th scope="col">Marks</th>
+                    <th scope="col">Generator</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <!-- First student data -->
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Jane Mokami</td>
+                    <td><input type="number" class="form-control" id="marksInput" placeholder="Enter Marks"></td>
+                    <td><button onclick="generateGrade()">Generate</button></td>
+                    <td><p id="gradeOutput"></p></td>
+                  </tr>
+                  <!-- Second student data -->
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob Omollo</td>
+                    <td><input type="number" class="form-control" id="marksInputOne" placeholder="Enter Marks"></td>
+                    <td><button onclick="generateGradeOne()">Generate</button></td>
+                    <td><p id="gradeOutputOne"></p></td>
+                  </tr>
+                  <!-- Third student data -->
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Jacob Omollo</td>
+                    <td><input type="number" class="form-control" id="marksInputTwo" placeholder="Enter Marks"></td>
+                    <td><button onclick="generateGradeTwo()">Generate</button></td>
+                    <td><p id="gradeOutputTwo"></p></td>
+                  </tr>
+                  <!-- Fourth student data -->
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Rose Wendy</td>
+                    <td><input type="number" class="form-control" id="marksInputThree" placeholder="Enter Marks"></td>
+                    <td><button onclick="generateGradeThree()">Generate</button></td>
+                    <td><p id="gradeOutputThree"></p></td>
+                  </tr>
+                  <!-- Fifth student data -->
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Peter Juma</td>
+                    <td><input type="number" class="form-control" id="marksInputFour" placeholder="Enter Marks"></td>
+                    <td><button onclick="generateGradeFour()">Generate</button></td>
+                    <td><p id="gradeOutputFour"></p></td>
+                  </tr>
+                </tbody>
+              </table>
+        </br>
+        <!-- A reset button  -->
+        <input class="btn btn-primary" style="background-color: cyan"  type="reset" value="Reset" onclick="refreshPage()">
+        </div>
+    </div>       
+</body>
+</html>

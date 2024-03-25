@@ -1,0 +1,41 @@
+@import '~bootstrap/dist/css'
+
+
+.container {
+    max-width: 200px;  /*Adjusts container width*/
+    margin: 0 auto;    /*Centers the container*/
+    padding: 20px;      /*Padding around*/
+    width: 20px;
+  
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.form-control {
+    width: 85px;
+    height: 2.5px;
+    padding: 10px;
+    border-color: blue;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+th,
+tr,
+td {
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+btn btn-primary {
+    background-color: blue;
+}
