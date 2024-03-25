@@ -5,4 +5,12 @@ The table is populated with student names and a provision for keying in marks be
 Bootstrap is employed for HTML and css.
 JavaScript provides its functionality.
 
-Reset for every test
+# Setup instructions
+Install node package manager npm.
+Install bootstrap
+
+```
+npm install bootstrap
+
+```
+
