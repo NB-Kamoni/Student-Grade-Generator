@@ -16,9 +16,9 @@ npm install bootstrap
 * Clone the forked repository into your local environment.
 * On your terminal
 ```
-git clone https://github.com/NB-Kamoni/Net-Salary-Calculator
+git clone https://github.com/NB-Kamoni/Student-Grade-Generator
 
-cd Net-Salary-Calculator
+cd Student-Grade-Generator
 
 code . 
 ```
